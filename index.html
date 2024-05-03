@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <title> BTS</title>
+    <link rel="icon" type="image/jpg" href="image/bts.png">
+    <link rel="stylesheet" href="1.css">
+ </head>
+<body>
+    <div class="head">
+        <nav>
+         <h1 style="color: antiquewhite;">BTS</h1>
+        <h1 class="c"></h1>
+        <ul >
+            <a class="f" href="#d"><li>Accueil</li></a>
+            <a class="g" href="#Filiére"><li>Filiére</li></a>
+            <a class="h" href="#inscription"><li>Inscription</li></a>
+            <a class="m" href= "#inscription">
+                <button style="  padding: 1rem 1rem; font-size: 1.0rem;" class="b">Inscription</button></a>
+        </ul>
+    </nav>
+    </div>
+<section id="first"  class="back">
+        <div class="text">
+            <h4 class="v">centre bts bnusina</h4>
+            <h2 class="w"><b>BOOSTER VOTRE AVENIR !!</b></h2>
+            <h5 class="u"><P>Plus de 5 Filières ... et 2000 Lauréat...</P></h5>
+            <a href="#inscription"><BUtton>Inscription</BUtton></a>
+        </div>
+</section>
+<Section id="Filiére" class="back">
+    <div class="CPI">
+    <img src="image/CPI.png" alt=""  width="410" height="180">
+   <h4> <p>Conception du Produit Industriel</p></h4>
+  </div>
+    <div><img src="image/dsi.png" alt="" width="510" height="180">
+    <h4><p>Développement des
+         Systèmes dInformation</p></h4>
+    </div>
+    <div><img src="image/electr.jpeg" alt=""  width="410" height="180">
+    <h4><p>Electrothecniques</p></h4>
+    </div>
+    <div><img src="image/mi.jpg" alt=""  width="410" height="180">
+    <h4><p>Maintenance Industrielle</p></h4>
+    </div>
+    <div><img src="image/se.jpg" alt=""  width="410" height="180">
+    <h4><p>Systèmes Electroniques</p></h4>
+    </div> 
+</Section>
+<section id="inscription" class="back">
+    <h1 style=" color: black;font-size: 50px;">Inscription</h1>
+            <form action="confirmation.txt" method="get" enctype="multipart/form-data">
+                <table> 
+                <tr><td><label >nom</label></td><td>
+                <input type="text" name="nom" placeholder="entrer le nom..."></td></tr>
+                <tr><td><label >prenom</label></td>
+                <td><input type="text" name="prenom" placeholder="entrer le prenom..." ></td></tr>
+                <tr><td>date de naissance</td><td><input type="date" name="ddn" placeholder="jj/mm/aaaa" d></td></tr>
+                <tr><td><label >email</label></td><td><input type="email" name="email"></td></tr>
+                <tr><td><label >sexe</label></td>
+                <td>M<input type="radio" name="sexe" checked value="M"> F<input type="radio" name="sexe" value="F"></td></tr>
+                <TR> <td><label >filiere</label></td> 
+                <td>
+                    <select name="" id="">
+                        <option value="dsi">Développement des Systèmes d’Information</option>
+                        <option value="SE">Systèmes Electroniques</option>
+                        <option value="CPI">Conception du Produit Industriel</option>
+                        <option value="PME">PME.PMI</option>
+                    </select>
+                </td>
+                </TR>
+                <tr><td>Adresse</td><td><textarea name="adresse"  cols="30" rows="10" placeholder="veuiller entrer l'adresse..."></textarea> </td></tr>
+                <tr><td><label for="">mot de passe</label></td><td><input type="password" placeholder="entrer votre mot de passe"></td></tr>
+                <tr><td><label for="">confermation de mot de passe</label></td><td><input type="password" placeholder="confirmer votre mot de passe"></td></tr>
+                <tr>
+                    <td><label>photo</label></td>
+                    <td><input type="file" name="photo"></td>
+                </tr>
+                <tr><td>bac</td>
+                    <td>
+                       STE<input type="radio" name="STE"  value="STE">
+                       STM <input type="radio" name="STM" value="STM">
+                       SMT <input type="radio" name="SMT" value="SMT">
+                       PC <input type="radio" name="PC" value="pc">
+                       SVT <input type="radio" name="SVT" value="SVT">
+                    </td></tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="send">
+                    </td>
+                    <td>
+                        <input type="reset">
+                    </td>
+                </tr>
+                </table>
+            </form>
+</section>
+<footer style="background-color:#01427a; display: block; text-align:center;   position: relative;   ">
+    <hr>
+    zakariae attar 1dsi <br>
+    <a href="mailto:zakariaattar15@gmail.com">send to zakaria gmail</a>
+ </footer>
+
+</body>
+</html>

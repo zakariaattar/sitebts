@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+.head{
+    background: #01427a;
+    color: #ffffff;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+li {
+    font-size: 30px;
+}
+nav {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 40px;
+}
+nav ul {
+    display: flex;
+    flex: 1 1 640px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.c {
+    flex: 1 1 640px;
+}
+h4{
+    font-size: 30px;
+}
+h5 {
+    font-size: 30px;
+}
+
+#first {
+    background-image: url("image/face.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10rem ;
+}
+#first .text {
+    padding: 0;
+    text-align: left;
+}
+#first h5 {
+    padding: 30px;
+}
+h1 {
+    font-size: 41px; 
+
+}
+
+button {
+    padding: 20px 20px ;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background: #e14177;
+}
+#Filiére{
+    background-color:  #01427a;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0;
+    display: flex ;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 10px;
+
+}
+#inscription{
+
+    padding: 0 500px;
+    } 
+    
+.back{
+    width: 100%;
+    min-height: 1000px;
+    padding-top:  200px; 
+}
+#inscription h1 {
+    text-align: center;
+    white-space: nowrap;
+}
+label{
+    font-size: 24px;
+}
+#inscription td{
+    font-size: 20px;
+}
+#inscription{
+    background-color: #005eb1;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0;
+    display: flex ;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 10px;
+    font-size:  16px ;
+}
+.b{
+    padding: 30px 30px;
+    font-size: 1.0rem;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background: #e14177;
+}
+h2 {
+    font-size: 65px;}
+ h3 {
+    font-size: 50px;}

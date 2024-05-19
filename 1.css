@@ -132,3 +132,31 @@ h2 {
     font-size: 65px;}
  h3 {
     font-size: 50px;}
+#first #bnu{
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+@keyframes slideleft {
+    from{transform: translateX(300px);}
+}
+@keyframes grow {
+    20%{transform: scale(2,2);}
+}
+@keyframes fade {
+    50%{opacity: ;}
+}
+#Filiére div{
+    animation: marginAnimation 5s infinite;
+}
+
+@keyframes marginAnimation {
+    0% {
+        margin-left: 50px;
+    }
+    50% {
+        margin-left: 50px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
